@@ -1,0 +1,39 @@
+{
+  "author": "Alain CAJUSTE <cajuste.alain@gmail.com>",
+  "name": "lorem-ipsum",
+  "description": "Lorem ipsum",
+  "version": "0.0.1",
+  "engines": {
+    "node": "~0.8 || ~0.9 || ~0.10"
+  },
+  "scripts": {
+    "install": "webdriver-manager update",
+    "postinstall": "bower install"
+  },
+  "devDependencies": {
+    "browser-sync": "~2.0.1",
+    "browserify": "^8.0.2",
+    "del": "^0.1.3",
+    "gulp": "^3.8.8",
+    "gulp-autoprefixer": "^1.0.0",
+    "gulp-changed": "^1.1.1",
+    "gulp-concat": "^2.5.2",
+    "gulp-filesize": "0.0.6",
+    "gulp-if": "^1.2.5",
+    "gulp-imagemin": "^1.1.0",
+    "gulp-jshint": "^1.8.4",
+    "gulp-less": "^1.3.5",
+    "gulp-load-plugins": "^0.7.0",
+    "gulp-minify-css": "^0.3.8",
+    "gulp-notify": "^1.4.2",
+    "gulp-pleeease": "^1.2.0",
+    "gulp-plumber": "^0.6.5",
+    "gulp-protractor": "0.0.11",
+    "gulp-sourcemaps": "^1.5.1",
+    "gulp-uglify": "^1.0.1",
+    "gulp-watch": "^1.0.3",
+    "require-dir": "^0.1.0",
+    "run-sequence": "^1.0.1",
+    "gulp-rename": "^1.2.2"
+  }
+}

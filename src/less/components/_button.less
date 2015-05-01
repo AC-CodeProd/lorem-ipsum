@@ -1,0 +1,45 @@
+.btn-tooltip {
+    position: relative;
+    display: block;
+    height: 3.125rem;
+    margin-top: 2.1875rem;
+    margin-right: auto;
+    margin-bottom: 2.1875rem;
+    margin-left: auto;
+    padding-left: 0.9375rem;
+    border: 0;
+    outline: none;
+    background-color: @red;
+    font-size: 0.83333333rem;
+
+    & span {
+        width: 3.125rem;
+        height: 3.125rem;
+        margin-left: 0.625rem;
+        border-left: solid @grey 0.0625rem;
+        vertical-align: middle;
+        line-height: 3.125rem;
+    }
+    &:before {
+        position: absolute;
+        top: -0.625rem;
+        left: 45%;
+        content: '';
+        border-width: 0 0.625rem 0.625rem 0.625rem;
+        border-style: solid;
+        border-color: transparent transparent @red transparent;
+    }
+}
+.btn-circle {
+    position: relative;
+    background-color: transparent;
+    border: solid 0.1875rem #FFF;
+    border-radius: 50%;
+    width: 2.5rem;
+    height: 2.5rem;
+    outline: none;
+    margin-left: 0.9375rem;
+    & span {
+        font-size: 1rem;
+    }
+}

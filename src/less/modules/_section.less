@@ -1,0 +1,88 @@
+.headband {
+    position: relative;
+    overflow: hidden;
+    color: white;
+
+
+    .bg {
+        position: absolute;
+        height:100%;
+
+    }
+    & aside {
+        position: relative;
+        padding-top: 9.375rem;
+        padding-bottom: 9.375rem;
+        text-align: center;
+
+        & h1 {
+            font-size: 2rem;
+            font-weight: 100;
+            white-space: pre-line;
+        }
+    }
+}
+.skills {
+    position: relative;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: @grey;
+    background-image:url(../assets/images/pattern.png);
+box-shadow: 0 -1px 25px rgba(0, 0, 0, .7);
+&:before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: -4px;
+        left: 0;
+        width: 100%;
+        height: 4px;
+        background: url(../assets/images/border_grey.png);
+    }
+    & aside {
+        position: relative;
+        min-width: 70%;
+        padding-left: 10%;
+        padding-right: 10%;
+        text-align: center;
+
+        & ul {
+            list-style: none;
+            text-decoration: none;
+        }
+        & .column-layout{
+            margin-top: 3.125rem;
+            margin-bottom: 1.25rem;
+        }
+    }
+}
+.about {
+    position: relative;
+    overflow: hidden;
+    color: white;
+
+    .bg {
+        position: absolute;
+        height: 100%;
+    }
+    & aside {
+        padding-top: 5.625rem;
+        padding-bottom: 5rem;
+        position: relative;
+        text-align: center;
+    }
+}
+@media only screen and (min-width:992px) {
+    html{
+    font-size: @base-font-size-992;
+}
+    .about {
+        .bg {
+            width: 100%;
+        }
+        & aside {
+            padding-left: 30%;
+            padding-right: 30%;
+        }
+    }
+}

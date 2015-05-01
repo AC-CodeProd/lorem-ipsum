@@ -1,0 +1,21 @@
+{
+  "name": "lorem-ipsum",
+  "version": "0.0.1",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "libraries"
+  ],
+  "dependencies": {
+    "font-awesome": "https://github.com/FortAwesome/Font-Awesome/archive/master.zip",
+    "modernizr": "~2.8.3",
+    "normalize-less": "*",
+    "html5shiv": "~3.7.2"
+  },
+  "overrides": {
+    "modernizr": {
+      "main": "modernizr.js"
+    }
+  }
+}
