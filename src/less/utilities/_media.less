@@ -11,6 +11,19 @@
     }
 }
 @media only screen and (min-width:@tablet) {
+    .media-wrapper {
+        & .headband-mobile, & .about-mobile{
+            display: none;
+        }
+        & .media {
+            & .headband-desktop, & .about-desktop  {
+                display: none;
+            }
+            & .headband-tablet, & .about-tablet {
+                display: block;
+            }
+        }
+    }
 }
 @media only screen and (min-width:@desktop) {
     .media-wrapper {
