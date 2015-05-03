@@ -4,8 +4,22 @@
     box-sizing: border-box;
 }
 html{
-    font-size: @base-font-size;
+    font-size: @base-font-size-mobile;
 }
 body {
     font-family: 'OpenSans', Helvetica, sans-serif;
+}
+b, strong {
+  font-family: 'OpenSansExtraBold', Helvetica, sans-serif;
+}
+sub, sup, small {
+    font-family: 'OpenSansLight', Helvetica, sans-serif;
+}
+sub {
+  bottom: 0.75em;
+}
+@media only screen and (min-width: @desktop) {
+    html {
+        font-size: @base-font-size-desktop;
+   }
 }

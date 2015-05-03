@@ -1,0 +1,30 @@
+.media-wrapper {
+    position: relative;
+
+    & .media {
+        display: block;
+
+        & .headband-tablet, & .headband-desktop, & .about-tablet, & .about-desktop {
+            display: none;
+            background-size: 100%;
+        }
+    }
+}
+@media only screen and (min-width:@tablet) {
+}
+@media only screen and (min-width:@desktop) {
+    .media-wrapper {
+        & .headband-mobile, & .about-mobile{
+            display: none;
+        }
+        & .media {
+            & .headband-tablet, & .about-tablet  {
+                display: none;
+            }
+            & .headband-desktop, & .about-desktop {
+                width: 100%;
+                display: block;
+            }
+        }
+    }
+}

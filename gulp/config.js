@@ -1,6 +1,7 @@
 var destPath = './build';
 var srcPath = './src';
 var assetsPath = '/assets';
+var gulpPath = './gulp';
 
 //external
 var fontsAwesomePath = './libraries/font-awesome/fonts';
