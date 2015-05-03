@@ -35,8 +35,11 @@ gulp
 ### Browser tests
 
 Chrome: 42
+
 Internet explorer: 9, 11
+
 Firefox: 37
+
 Android: 5
 
 Enjoy ! =)
